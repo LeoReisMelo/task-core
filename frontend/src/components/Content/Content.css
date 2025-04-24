@@ -1,0 +1,124 @@
+.content {
+  flex: 1;
+  padding: 2rem;
+  margin-left: 220px;
+}
+
+.dashboard-section {
+  margin-bottom: 2rem;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.dashboard-item {
+  background-color: #f7f7f7;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.progress-container {
+  margin-bottom: 20px;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 20px;
+  background-color: #ddd;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.progress-bar-filled {
+  height: 20px;
+  background-color: red;
+  border-radius: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.badges-container {
+  margin-top: 20px;
+}
+
+.badges-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.badge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.badge img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.badge span {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.tasks-section {
+  margin-bottom: 2rem;
+}
+
+.tasks-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2rem;
+}
+
+.task-column {
+  background-color: #f7f7f7;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+}
+
+.task-card {
+  background-color: #fff;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.shop-section {
+  margin-bottom: 2rem;
+}
+
+.shop-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.shop-item {
+  background-color: #f7f7f7;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.shop-item img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}

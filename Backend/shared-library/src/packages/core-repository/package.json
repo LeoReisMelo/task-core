@@ -1,0 +1,49 @@
+{
+  "name": "@taskcore/core-repository",
+  "version": "1.0.3",
+  "description": "Core repository - Lib",
+  "author": "Leonardo Reis Melo",
+  "private": false,
+  "license": "UNLICENSED",
+  "publishConfig": {
+    "registry": "http://localhost:4873"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@nestjs/common": "^11.0.1",
+    "@nestjs/core": "^11.0.1",
+    "mongoose": "^8.13.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  },
+  "keywords": [
+    "nestjs",
+    "mongodb",
+    "repository",
+    "base"
+  ],
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "ts"
+    ],
+    "rootDir": "src",
+    "testRegex": ".*\\.spec\\.ts$",
+    "transform": {
+      "^.+\\.(t|j)s$": "ts-jest"
+    },
+    "collectCoverageFrom": [
+      "**/*.(t|j)s"
+    ],
+    "coverageDirectory": "../coverage",
+    "testEnvironment": "node"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts"
+}

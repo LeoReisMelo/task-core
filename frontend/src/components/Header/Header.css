@@ -1,0 +1,66 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: white;
+  color: black;
+  height: 100px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin-right: 1rem;
+}
+
+.project-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.right-container {
+  display: flex;
+  align-items: center;
+}
+
+.stats-container {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.stat-item {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.stat-icon {
+  font-size: 20px;
+  margin-right: 0.5rem;
+}
+
+@media (max-width: 400px) {
+  .stats-container {
+    display: none;
+  }
+  .profile-picture-container {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .stat-item span {
+    display: none;
+  }
+  .stat-icon {
+    font-size: 24px;
+    margin-right: 0;
+  }
+}

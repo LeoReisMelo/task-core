@@ -1,0 +1,51 @@
+Name: TaskCore
+Slogan: Where Tasks Become Missions
+Colors: 
+Cor	Código HEX	RGB	CMYK	Uso Principal
+Vermelho Vivo	#FF3E3E	255, 62, 62	0, 76, 76, 0	Gamificação, botões de ação
+Azul Profundo	#2A5B8A	42, 91, 138	85, 60, 20, 0	Cabeçalhos, elementos primários
+Preto Tech	#1A1A1A	26, 26, 26	80, 70, 70, 80	Textos, bordas, fundos escuros
+Branco Neutro	#FFFFFF	255, 255, 255	0, 0, 0, 0	Fundos de UI, espaços negativos
+Cinza Luz	#E0E0E0	224, 224, 224	10, 5, 5, 0	Divisores, fundos secundários
+
+Secundary Colors:
+Cor	Código HEX	RGB	Uso Específico
+Verde Sucesso	#00C853	0, 200, 83	Conquistas, tarefas completas
+Amarelo Ouro	#FFD600	255, 214, 0	Recompensas premium, destaques
+Roxo Místico	#7B1FA2	123, 31, 162	Elementos VIP, níveis avançados
+
+Cores para UI/UX (Guia de Aplicação)
+Botões:
+
+Primário: Vermelho Vivo (#FF3E3E)
+
+Secundário: Azul Profundo (#2A5B8A)
+
+Desabilitado: Cinza Luz (#E0E0E0)
+
+Textos:
+
+Títulos: Preto Tech (#1A1A1A)
+
+Corpo: Preto Tech 80% opacidade
+
+Links: Azul Profundo (#2A5B8A)
+
+Feedback Visual:
+
+Erro: Vermelho Vivo (#FF3E3E)
+
+Sucesso: Verde Sucesso (#00C853)
+
+Alerta: Amarelo Ouro (#FFD600)
+
+Degradês e Efeitos Especiais
+Gradiente Hero Section:
+Azul Profundo (#2A5B8A) → Preto Tech (#1A1A1A) (ângulo 135°)
+
+Efeito Gamificado:
+Brilho pulsante em Vermelho Vivo (#FF3E3E) para notificações urgentes.
+
+
+
+
