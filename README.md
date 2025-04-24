@@ -1,2 +1,2 @@
-# task-core
+# task-nova
 A task manager core
